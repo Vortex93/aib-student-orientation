@@ -1,0 +1,11 @@
+version: '3'
+services:
+  jupyter:
+    image: jupyter/datascience-notebook
+    ports:
+      - 8888:8888
+    volumes:
+      - ./notebooks:/home/jovyan/work
+
+
+      http://186.189.135.0:8888/lab?token=dfff20a43b104d00f5f4438ead6a98a35441d681e4b4cfcd
